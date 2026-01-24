@@ -2,7 +2,6 @@ package com.examples.lld.parking_lot.ParkingLot;
 
 import com.examples.lld.parking_lot.Entity.ParkingSpot;
 import com.examples.lld.parking_lot.Entity.Vehicle;
-import com.examples.lld.parking_lot.Pricing.CostComputation;
 import com.examples.lld.parking_lot.Ticket;
 
 import java.util.List;

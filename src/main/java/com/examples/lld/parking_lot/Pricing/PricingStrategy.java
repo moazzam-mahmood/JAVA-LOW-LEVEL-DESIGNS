@@ -4,5 +4,5 @@ import com.examples.lld.parking_lot.Ticket;
 
 public interface PricingStrategy {
 
-    public double calculatePrice(Ticket ticket);
+     double calculatePrice(Ticket ticket);
 }

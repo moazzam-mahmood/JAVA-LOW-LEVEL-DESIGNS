@@ -10,7 +10,7 @@ public abstract class ParkingSpotManager {
 
     private final List<ParkingSpot> spots;
     private final ParkingSpotLookupStrategy strategy;
-    private ReentrantLock lock = new ReentrantLock();
+    private final ReentrantLock lock = new ReentrantLock();
 
 
     public ParkingSpotManager(List<ParkingSpot> spots, ParkingSpotLookupStrategy strategy) {
