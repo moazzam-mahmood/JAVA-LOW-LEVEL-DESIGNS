@@ -3,7 +3,7 @@ package com.examples.lld.multithreading.customBlockingQueue;
 public class Main {
 
     public static void main(String[] args) {
-        CustomBlockingQueue<Integer> queue = new CustomBlockingQueue<Integer>(10);
+        CustomBlockingQueue<Integer> queue = new CustomBlockingQueue<Integer>(1);
 
         Thread producer1 = new Thread(new Producer(queue), "Producer1");
         Thread producer2 = new Thread(new Producer(queue), "Producer2");
